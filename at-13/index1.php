@@ -18,7 +18,9 @@
     </div>
     <?php
     $buscar = $_GET['buscar'];
-    header('Location: https://g1.globo.com/busca/?q='. $buscar);
+    if (isset($buscar)){
+        header('Location: https://g1.globo.com/busca/?q='. $buscar);
+    }
     ?>
 </body>
 </html>
