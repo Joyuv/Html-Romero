@@ -16,6 +16,11 @@
     <div id="bottcabe">
         <img src="img/menu.png" alt=""><span>Eleições</span>
     </div>
-    <a href="index1.php">Site com php</a>
+    <?php
+    $buscar = $_GET['buscar'];
+    if (isset($buscar)){
+        header('Location: https://g1.globo.com/busca/?q='. $buscar);
+    }
+    ?>
 </body>
 </html>

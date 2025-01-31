@@ -1,0 +1,73 @@
+#bloco1, #bloco2, #bloco3, #bloco4{
+    border: 5px solid gray;
+    width: 3.5vw;
+    height: 5.5vh;
+    border-radius: 15%;
+    background: rgb(41, 41, 41, 0.7);
+    position: relative;
+    float: left;
+    margin: 20px 0px 0px;
+    p{
+        color: white;
+        position: relative;
+        left: 13%;
+        width: 2.7vw;
+        height: 1.5vh;
+        text-align: center;
+    }
+    
+}
+#bloco1:hover, #bloco2:hover, #bloco3:hover, #bloco4:hover{
+    border: 5px solid black;
+}
+#bloco1{
+    margin-left: 20px;
+}
+body{
+    margin:0;
+}
+#cabe{
+    background-color: gray;
+    width: 100vw;
+    height: 14vh;
+}
+#side{
+    height: 70vh;
+    width: 15%;
+    background: black;
+    float: left;
+}
+#conteudo{
+    height: 70vh;
+    width: 80%;
+    background: rgb(83, 170, 247);
+    float: right;
+    h2{
+        margin: 75px 0px 0px 70px;
+    }
+    p{
+        margin: 40px 0px 0px 90px;
+    }
+}
+#conteudo, #side{
+ margin: 1% 1% 0px 1%;
+}
+#corpo{
+    background-color: antiquewhite;
+    height: 73vh;
+    padding: 0px 0px 20px 0px;
+}
+.texto{
+    text-align: center;
+    width: 80%;
+    height: 25px;
+    background: white;
+    position: relative;
+    align-content: center;
+    margin: 20px 0px 0px 30px;
+}
+.pe{
+    background-color: gray;
+    width: 100vw;
+    height: 15vh;
+}

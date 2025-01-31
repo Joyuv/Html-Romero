@@ -20,19 +20,32 @@ a{
 #midcabe{
     background-color: rgb(219, 0, 0);
     margin-top: 7px;
-    padding-bottom: 18px;
+    padding-bottom: 17px;
 
+    #menu-img{
+        margin-top: 22px;
+        margin-left: 22px;
+        width: 30px;
+        height: 30px;
+        float: left;
+    }
+    /* #lupa{ */
+        /* width: 20px; */
+        /* height: 20px; */
+        /* float: right; */
+        /* margin-top: 10px; */
+        /* margin-left: 20px; */
+    /* } */
     span{
         color: white;
     }
     #menu{
-        padding-bottom: 19px;
-        padding-top: 15px;
-        padding-left: 30px;
+        margin-top: 25px;
+        padding-left: 10px;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-bottom: 5px;
         font-weight: bold;
+        float:left;
     }
     #g1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,13 +61,22 @@ a{
         margin-top: 20px;
         margin-bottom: 25px;
         margin-right: 25px;
+        background: url(img/lupa.png) no-repeat 180px;
         background-color: rgb(185, 0, 0);
         border: none;
         font-weight: bold;
         padding: 7px 7px 7px 7px;
+        padding-right: 25px;
+        background-size: 20px;
+        border-radius: 22px;
+    }
+    input:focus{
+        outline: none;
+        background-image: none;
     }
 }
 #bottcabe{
+    padding-bottom: 45px;
     span{
         padding-top: 10px;
         float: right;
@@ -63,11 +85,16 @@ a{
         padding-left: 700px;
     }
     img{
-        width: 45px;
-        height: 45px;
         float: right;
     }
 }
 body{
     margin:0;
+}
+img{
+    width: 45px;
+    height: 45px;
+}
+form{
+    display: inline;
 }
