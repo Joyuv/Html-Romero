@@ -1,0 +1,106 @@
+#papai{
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: auto;
+    /* flex-flow: row nowrap; */
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#side{
+    display: flex;
+    position: fixed;
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(203, 255, 255);
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 30px;
+    #botao{
+        width: 80%;
+        height: 6%;
+        background-color: rgb(39, 176, 255);
+        font-size: 2em;
+        /* text-align: center; */
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        span{
+            text-align: center;
+        }
+    }
+    #botao:first-of-type{
+        margin: 70% 0 0 0;
+    }
+}
+#container{
+    /* float: left; */
+    position: relative;
+    width: 84%;
+    height: 100%;
+    background-color: gray;
+    margin-left: 16%;
+}
+#container-2{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 1%;
+
+    span{
+        margin: 0 3.5%;
+        width: 93%;
+        text-align: justify;
+        display: block;
+    }
+    #tit{
+        padding: 5% 0;
+        text-align: center;
+        font-size: 21px;
+    }
+    #news{
+        background-color: rgb(255, 255, 205);
+        width: 32%;
+        height: 360px;
+        border-radius: 15px;
+        min-width: 300px;
+        min-height: 300px;
+    }
+    hr{
+        width: 93%;
+    }
+}
+#baixo{
+    width: 97.4%;
+    background-color:rgb(255, 255, 205);
+    height: 31.5%;
+    margin: 1% 1.3%;
+    border-radius: 20px;
+    hr{
+        width: 93%;
+    }
+    span{
+        margin: 0 3.5%;
+        width: 93%;
+        text-align: justify;
+        display: block;
+    }
+    #tit{
+        padding: 2.5% 0;
+        text-align: center;
+        font-size: 21px;
+    }
+}
+#tit{
+    font-weight:bolder;
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

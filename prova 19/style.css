@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+.cabe > a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+.cabe{
+    background-color: rgb(172, 172, 172);
+    a{
+        padding: 30px 20px 30px 20px;
+        font-size: 22px;
+    }
+    a:hover{
+        background-color: rgb(150, 150, 150);
+    }
+}
+*{
+    box-sizing:border-box;
+}
+#corpo{
+    background-color: blanchedalmond;
+    padding-top: 80px;
+    padding-bottom: 800px;
+    div{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px 4px 5px 16px;
+        display: inline-block;
+        border: 1px solid black;
+        p{
+            margin: 5px 0px 0px 0px;
+            display: inline-block;
+            width: 180px;
+        }
+        #titulo{
+            font-weight: bold;
+        }
+    }
+    img{
+        width: 180px;
+        height: 180px;
+        
+    }
+    .img1 + .imgirm:hover{
+        background-color: aqua;
+    }
+}
+hr{
+    margin: 0px;
+}

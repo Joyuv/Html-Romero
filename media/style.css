@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#calmaipaizao{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    #side{
+        height: 100%;
+        background-color: antiquewhite;
+        width: 15%;
+        display: flex;
+        flex-flow: column wrap;
+        a{
+            background-color: azure;
+            padding: 1%;
+            display: inline;
+        }
+    }
+    #conteudo{
+        height: 100%;
+        width: 83%;
+        background-color: burlywood;
+    }
+}
